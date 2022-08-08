@@ -1,9 +1,18 @@
 #include "main.h"
+<<<<<<< HEAD
 /**
 * _print_dec - print d
 * @d: integer
 * Return: count
 */
+=======
+
+/**
+ * _print_dec - print d
+ * @d: integer
+ * Return: count
+ */
+>>>>>>> acfd0f1dfecabc411eaa6af8bac83b93a4ec28eb
 int _print_dec(va_list d)
 {
 	int dig[10];
@@ -33,15 +42,25 @@ int _print_dec(va_list d)
 			_putchar(dig[i] + '0');
 			count++;
 		}
+<<<<<<< HEAD
 
+=======
+>>>>>>> acfd0f1dfecabc411eaa6af8bac83b93a4ec28eb
 	}
 	return (count);
 }
 /**
+<<<<<<< HEAD
 * _print_int - print integer
 * @i: integer
 * Return: count
 */
+=======
+ * _print_int - print integer
+ * @i: integer
+ * Return: count
+ */
+>>>>>>> acfd0f1dfecabc411eaa6af8bac83b93a4ec28eb
 int _print_int(va_list i)
 {
 	int dig[10];
@@ -71,9 +90,15 @@ int _print_int(va_list i)
 			_putchar(dig[j] + '0');
 			count++;
 		}
+<<<<<<< HEAD
 
+=======
+>>>>>>> acfd0f1dfecabc411eaa6af8bac83b93a4ec28eb
 	}
 	return (count);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> acfd0f1dfecabc411eaa6af8bac83b93a4ec28eb

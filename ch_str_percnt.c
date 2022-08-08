@@ -28,7 +28,7 @@ int _print_str(va_list s)
 		count++;
 	}
 	return (count);
-	}
+}
 /**
  * _print_percnt - function that prints percentage sign
  * @c: %
@@ -38,3 +38,4 @@ int _print_percnt(__attribute__((unused))va_list c)
 {
 	return (_putchar('%'));
 }
+
