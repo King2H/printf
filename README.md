@@ -1,2 +1,1 @@
-This is a repository for Comfort and Negassi's printf project -_-
-
+Printf collaboration project directory
